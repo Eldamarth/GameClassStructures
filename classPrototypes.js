@@ -13,6 +13,9 @@ module.exports = class BASE {
 	}
 
 	// GETTERS
+	get type() {
+		return this.constructor.name;
+	}
 
 	// SETTERS
 
