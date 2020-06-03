@@ -1,6 +1,6 @@
 const BASE = require("../classPrototypes");
 const Map = require("./assets/map/map");
-const { Meter, SkillMeter } = require("./assets/meter/meter");
+const { Meter } = require("./assets/meter/meter");
 
 class Turn extends BASE {
 	/* 
@@ -36,6 +36,7 @@ module.exports = class Game extends BASE {
 		const state = {
 			party: [],
 			map: new Map(),
+			score: new Meter(),
 		};
 
 		super(state);
