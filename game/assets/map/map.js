@@ -1,6 +1,6 @@
 const BASE = require("../../../classPrototypes");
 
-class Map extends BASE {
+module.exports = class Map extends BASE {
 	constructor(stateExpansion = {}) {
 		const state = {};
 

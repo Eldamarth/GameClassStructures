@@ -1,6 +1,6 @@
 const BASE = require("../../../classPrototypes");
 
-class Item extends BASE {
+module.exports = class NEWEXTENSIONNAME extends BASE {
 	constructor(stateExpansion = {}) {
 		const state = {};
 
@@ -13,4 +13,4 @@ class Item extends BASE {
 	// SETTERS
 
 	// METHODS
-}
+};

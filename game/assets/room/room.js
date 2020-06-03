@@ -1,6 +1,6 @@
 const BASE = require("../../../classPrototypes");
 
-class Room extends BASE {
+module.exports = class Room extends BASE {
 	constructor(stateExpansion = {}) {
 		const state = {};
 

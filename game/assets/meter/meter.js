@@ -67,3 +67,5 @@ class SkillMeter extends Meter {
 		return output;
 	}
 }
+
+module.exports = { Meter, SkillMeter };

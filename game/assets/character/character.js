@@ -1,6 +1,6 @@
 const BASE = require("../../../classPrototypes");
 
-class Character extends BASE {
+module.exports = class Character extends BASE {
 	constructor(stateExpansion = {}) {
 		const state = {};
 

@@ -1,4 +1,6 @@
 const BASE = require("../classPrototypes");
+const Map = require("./assets/map/map");
+const { Meter, SkillMeter } = require("./assets/meter/meter");
 
 class Turn extends BASE {
 	constructor(stateExpansion = {}) {
